@@ -1,0 +1,10 @@
+/* Ensure you have other existing styles here */
+
+.container {
+  max-width: 1200px; /* Set your desired maximum width */
+  margin: 0 auto;
+  padding: 0 15px; /* Optional: add padding to the sides */
+  /* Include other styles for .container */
+}
+
+/* Additional CSS as required */
