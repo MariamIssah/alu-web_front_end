@@ -1,0 +1,15 @@
+/* Ensure you have other existing styles here */
+
+.hero-homepage {
+  background-image: url('./images/background.png'); /* Ensure the path is correct */
+  background-position: 65% 8rem;
+  background-size: 90rem auto;
+  /* Include other styles for .hero-homepage */
+}
+
+.section-hero .section-inner {
+  min-height: 35vh;
+  /* Include other styles for .section-inner */
+}
+
+/* Additional CSS as required */
