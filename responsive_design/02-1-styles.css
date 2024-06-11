@@ -1,0 +1,97 @@
+/* Base styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Helpers */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Navbar */
+.navbar-menu {
+    /* Existing navbar styles */
+}
+
+/* Section Latest news */
+.section-latest-news {
+    /* Existing styles for the latest news section */
+}
+
+/* Grid */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Col classes */
+[class*="col-"] {
+    padding: 1rem;
+}
+
+.col-1-3 {
+    width: 33.33%;
+}
+
+.col-1-2 {
+    width: 50%;
+}
+
+/* Media Queries */
+
+/* Tablet / Medium styles (max-width: 767px) */
+@media (max-width: 767px) {
+    /* Section Latest news */
+    .section-latest-news .row {
+        flex-direction: column;
+    }
+    
+    /* Grid */
+    :root {
+        --section-padding: 5rem 1.5rem;
+        --section-body-padding: 2rem 0 0;
+    }
+    
+    .row,
+    ul.row {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    [class*="col-"] {
+        margin: 0 0 3rem 0;
+    }
+
+    .col-1-3,
+    .col-1-2 {
+        width: 100%;
+    }
+    
+    /* Navbar */
+    .navbar-menu {
+        display: none;
+    }
+}
+
+/* Desktop / Large devices (max-width: 992px) */
+@media (max-width: 992px) {
+    /* Add any necessary styles for large devices here */
+}
+
+/* Mobile styles (max-width: 480px) */
+@media (max-width: 480px) {
+    /* Add any necessary styles for mobile devices here */
+}
+
+/* Extra large devices (no media queries needed) */
+/* Add any necessary styles for extra large devices here */
